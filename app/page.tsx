@@ -26,10 +26,6 @@ export default function Home() {
           <p className="eyebrow">Café · cacao · especialidad</p>
           <h1>Sabores con raíz.<br /><em>Momentos que florecen.</em></h1>
           <p className="hero-intro">Un espacio donde el café de origen, el cacao y la botánica se encuentran en bebidas hechas con intención.</p>
-          <div className="hero-actions">
-            <a className="button button-dark" href="#menu">Descubrir el menú</a>
-            <a className="text-link" href="#historia">Conoce nuestra esencia <span>↗</span></a>
-          </div>
           <div className="hero-notes" aria-label="Nuestros principios">
             <span>Ingredientes locales</span><span>Preparación artesanal</span><span>Origen consciente</span>
           </div>
