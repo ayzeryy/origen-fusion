@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
   title: 'Origen & Fusión | Café, cacao y especialidad',
   description: 'Café de origen, cacao e infusiones botánicas preparados con intención.',
+  icons: {
+    icon: [{ url: '/origen-fusion-logo.png', type: 'image/png' }],
+    shortcut: '/origen-fusion-logo.png',
+    apple: '/origen-fusion-logo.png',
+  },
   openGraph: {
     title: 'Origen & Fusión',
     description: 'Café, cacao y especialidad. Ingredientes con origen, encuentros con intención.',
